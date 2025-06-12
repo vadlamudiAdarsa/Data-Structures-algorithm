@@ -36,11 +36,6 @@ void main()
 void insertion (int ele) 
 {
    int i,x,t;
-   if(n==20)
-   {
-      printf("\nNo space to insert");
-      return;
-    }
     n=n+1;
     a[n]=ele;
     i=n;
@@ -103,7 +98,7 @@ void deletion()
          printf("\nempty");
          return ;
      }
-     printf("\nelements are ");
+     printf("\n min heap elements are ");
      for(i=1;i<=n;i++)
      printf("\t%d",a[i]);
      printf("\n");
